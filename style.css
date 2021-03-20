@@ -1,0 +1,22 @@
+/* PROJECT STARTER TEMPLATE */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+        /* If we add padding or border, it doesn't affect the width */
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+        /*  flex box needs height for justify-content:center; */
+    height: 100vh;
+    overflow: hidden;
+        /* dont want scroll bars to interfere */
+    margin: 0;
+}
+
